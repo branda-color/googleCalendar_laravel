@@ -33,11 +33,13 @@ Route::get('apiadd', function () {
 
     //Event::create(['name' => 'test', 'startDateTime' => Carbon::createFromDate(2021, 4, 22), 'endDateTime' =>  Carbon::createFromDate(2021, 4, 22)]);
 
-    $event->name = 'apitest';
+    $event->name = 'yuyu';
 
-    $event->startDateTime = Carbon::createFromDate(2021, 4, 30);
+    $event->description = 'https://ithelp.ithome.com.tw/articles/10222121';
 
-    $event->endDateTime = Carbon::createFromDate(2021, 4, 30);
+    $event->startDateTime = Carbon::createFromDate(2021, 5, 12);
+
+    $event->endDateTime = Carbon::createFromDate(2021, 5, 12);
 
     $event->addAttendee(['email' => 'wishcolor0770@gmail.com']);
 
