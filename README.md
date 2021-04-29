@@ -1,6 +1,6 @@
 ## Laravel 連接googlecalendarAPI
 1.先安裝套件  
-composer require spatie/laravel-google-calendar 
+composer require spatie/laravel-google-calendar     
 2.到config/app.php註冊服務  
 'providers'=> [...SpatieGoogleCalendarGoogleCalendarServiceProvider::class,];  
 'aliases'=> [...'GoogleCalendar'=>SpatieGoogleCalendarGoogleCalendarFacade::class,...]   
